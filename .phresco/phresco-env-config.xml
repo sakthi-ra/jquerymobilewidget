@@ -1,0 +1,27 @@
+<environments>
+    <environment default="true" desc="Production Environment is used for Development purpose only" name="Production">
+        <Server desc="" name="server">
+            <context>jquerymobileeshop</context>
+            <deploy_dir/>
+            <admin_username>admin</admin_username>
+            <additional_context/>
+            <port>7070</port>
+            <admin_password>admin</admin_password>
+            <version>7.0.x</version>
+            <certificate/>
+            <type>Apache Tomcat</type>
+            <remoteDeployment>true</remoteDeployment>
+            <protocol>http</protocol>
+            <host>172.16.27.221</host>
+        </Server>
+    <WebService desc="" name="service">
+            <port>2020</port>
+            <password/>
+            <context>eshop</context>
+            <host>172.16.17.180</host>
+            <protocol>http</protocol>
+            <username/>
+        </WebService>
+    
+    </environment>
+</environments>
